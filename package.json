@@ -1,0 +1,19 @@
+{
+  "name": "verbs-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["verbs", "english"],
+  "author": "Claudia Valdivieso",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "morgan": "^1.9.0"
+  }
+}
