@@ -32,11 +32,11 @@ async function scrapeData() {
       // Store the textcontent in the above object
       const elChildren = $(el).children();
       verb.id = $(elChildren[0]).text();
-      verb.baseForm = $(elChildren[1]).text();
-      verb.pastForm = $(elChildren[2]).text();
-      verb.pastParticipleForm = $(elChildren[3]).text();
-      verb.sEsIesForm = $(elChildren[4]).text();
-      verb.ingForm = $(elChildren[5]).text();
+      verb.baseForm = $(elChildren[1]).text().trim();
+      verb.pastForm = $(elChildren[2]).text().trim();
+      verb.pastParticipleForm = $(elChildren[3]).text().trim();
+      verb.sEsIesForm = $(elChildren[4]).text().trim();
+      verb.ingForm = $(elChildren[5]).text().trim();
       // Populate verbs array with verb data
       verbs.push(verb);
     });
