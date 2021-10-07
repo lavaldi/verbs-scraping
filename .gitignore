@@ -68,5 +68,9 @@ typings/
 # dotenv environment variables file
 .env
 
+#results
+
+verbs.json
+
 
 # End of https://www.gitignore.io/api/node,code
